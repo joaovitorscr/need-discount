@@ -31,7 +31,7 @@ export const env = createEnv({
     NODE_ENV: process.env.NODE_ENV,
     REDIS_URL: process.env.REDIS_URL,
     REDIS_TOKEN: process.env.REDIS_TOKEN,
-    STEAM_KEY: process.env.STEAM_API,
+    STEAM_KEY: process.env.STEAM_KEY,
   },
   /**
    * Run `build` or `dev` with `SKIP_ENV_VALIDATION` to skip env validation. This is especially
