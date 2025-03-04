@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@netlify/functions':
+        specifier: ^3.0.1
+        version: 3.0.1
       '@prisma/client':
         specifier: ^5.14.0
         version: 5.22.0(prisma@5.22.0)
@@ -328,6 +331,14 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
+
+  '@netlify/functions@3.0.1':
+    resolution: {integrity: sha512-KqVvGatPnn3lw80vXsFbYV3H2S9FI9TQHneFVR6BBvfHWiqTvs8NwUoBpnUWgqPKKeUMuynycDabeSi9CW2WWw==}
+    engines: {node: '>=18.0.0'}
+
+  '@netlify/serverless-functions-api@1.35.0':
+    resolution: {integrity: sha512-BH9eF3s7bUbqkcEUMR7dne/iCXSpZD10KVkGcs53eDrON5pKxsMdXvrdAx/q0HD24vJgHXGXObGSr5sjPllGEA==}
+    engines: {node: '>=18.0.0'}
 
   '@next/env@15.2.0':
     resolution: {integrity: sha512-eMgJu1RBXxxqqnuRJQh5RozhskoNUDHBFybvi+Z+yK9qzKeG7dadhv/Vp1YooSZmCnegf7JxWuapV77necLZNA==}
@@ -2306,6 +2317,12 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
+
+  '@netlify/functions@3.0.1':
+    dependencies:
+      '@netlify/serverless-functions-api': 1.35.0
+
+  '@netlify/serverless-functions-api@1.35.0': {}
 
   '@next/env@15.2.0': {}
 
